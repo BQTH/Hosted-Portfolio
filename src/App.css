@@ -68,7 +68,7 @@ nav, .logo, nav a.nav-link{
 }
 
 section#main{
-  background-image: url("./assets/beach-2.jpg");
+  background-image: url("https://res.cloudinary.com/dcgy2ao4n/image/upload/c_scale,q_80,w_2400/v1621272294/Portfolio%20-%20BQTH/Home/beach-2_djphfe.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */

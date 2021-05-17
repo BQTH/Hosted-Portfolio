@@ -17,11 +17,11 @@ function App() {
        <Router>
           <Switch>
               <Route path="/" exact component={Home} />   
-              <Route path="/designs" exact component={Designs} />  
-              <Route path="/photos" exact component={Photos} />    
-              <Route path="/SCHOOLCORD" exact component={Schoolcord} /> 
-              <Route path="/KRS" exact component={Krs} /> 
-              <Route path="/NRG PHOTOS" exact component={Nrgphotos} /> 
+              <Route path="/designs" component={Designs} />  
+              <Route path="/photos" component={Photos} />    
+              <Route path="/SCHOOLCORD" component={Schoolcord} /> 
+              <Route path="/KRS" component={Krs} /> 
+              <Route path="/NRG PHOTOS" component={Nrgphotos} /> 
           </Switch>
         </Router>
         </div>
