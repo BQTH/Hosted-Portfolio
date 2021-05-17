@@ -1,5 +1,5 @@
 import React from 'react'
-import Nrgdesign from './assets/nrgphotos/nrg-design.png'
+import Nrgdesign from './assets/nrgphotos/nrg-design.jpg'
 
 function nrgphotos() {
     return (
