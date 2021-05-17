@@ -1,0 +1,210 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+
+body{
+  box-sizing: border-box !important;
+  display: inline-block !important;
+  overflow-x: hidden;
+}
+
+nav{
+  background-color: transparent;
+  box-shadow: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: fixed;
+  top: 0;
+
+}
+
+nav, .logo, nav a.nav-link{
+  color: white !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: 700 !important;
+  font-size: 35px !important;
+  text-decoration: underline;
+}
+
+section#main{
+  background-image: url("./assets/beach-2.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100vw;
+  height: 100vh;
+}
+
+.socials-position{
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+}
+
+.social-icon{
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.oneline h6{
+  position: fixed;
+  font-size: 16px;
+  right: 25px;
+  top: 50vh;
+  color: rgba(255, 255, 255, 0.75) ;
+}
+
+.projectimg{
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100vw;
+  height: 100vh;
+}
+
+.contentbox{
+  height: 100vh;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2{
+  text-align: center;
+}
+
+p{text-align: center;}
+
+.valign-wrapper{
+  width: 100%;
+  height: calc(100vh - 150.2px);
+}
+
+.project-img{
+  width: 25%;
+  border-radius: 15px;
+}
+
+#previewphotos{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button{
+  text-align: center;
+}
+
+.outervalign{
+  height: 100vh;
+  width: 100%;
+  padding: 0 5% 0 5%;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .outervalign {
+    height: 50vh;
+    width: 100vw;
+  }
+}
+
+.innervalign{
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.infobox{
+  max-width: 600px;
+}
+
+.project-img.one{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.btn{
+  background-color: #FFBA52;
+}
+
+.test{
+  width: 300px;
+  height: 300px;
+  color: black;
+  background-color: red;
+  
+}
+
+.projectpage-h1 {
+  text-align: center;
+  margin-top: 100px; 
+  color: white; 
+  text-decoration: underline; 
+  font-size: 40px;
+}
+
+.projectpage-h4{
+  color: white;
+}
+
+.projectpage-p{
+  color: white;
+  text-align: left;
+}
+
+.projectpage-imgcontainer {
+  padding-left: 5%;
+   padding-right: 5%;
+}
+
+.projectpage-imgcontainer img{
+  width: 100%;
+}
+
+.ta-center{
+  text-align: center;
+}
