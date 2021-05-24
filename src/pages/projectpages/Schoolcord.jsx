@@ -51,29 +51,29 @@ function Schoolcord() {
                     </div>
                 </div>
                 <div className="row projectpage-imgcontainer">
-                    <div className="col l3 m6 s6"><img
+                    <div className="col l2 m6 s6"><img className="materialboxed"
                         src={schoolcord1} alt="" /></div>
-                    <div className="col l3 m6 s6"><img
+                    <div className="col l2 m6 s6"><img className="materialboxed"
                         src={schoolcord2} alt="" /></div>
-                    <div className="col l3 m6 s6"><img
+                    <div className="col l2 m6 s6"><img className="materialboxed"
                         src={schoolcord3} alt="" /></div>
-                    <div className="col l3 m6 s6"><img
+                    <div className="col l2 m6 s6"><img className="materialboxed"
                         src={schoolcord4} alt="" /></div>
-                    <div className="col l3 m6 s6"><img
+                    <div className="col l2 m6 s6"><img className="materialboxed"
                         src={schoolcord5} alt="" /></div>
-                    <div className="col l3 m6 s6"><img
+                    <div className="col l2 m6 s6"><img className="materialboxed"
                         src={schoolcord6} alt="" /></div>
-                    <div className="col l3 m6 s6"><img
+                    <div className="col l2 m6 s6"><img className="materialboxed"
                         src={schoolcord7} alt="" /></div>
-                    <div className="col l3 m6 s6"><img
+                    <div className="col l2 m6 s6"><img className="materialboxed"
                         src={schoolcord8} alt="" /></div>
-                    <div className="col l3 m6 s6"><img
+                    <div className="col l2 m6 s6"><img className="materialboxed"
                         src={schoolcord9} alt="" /></div>
-                    <div className="col l3 m6 s6"><img
+                    <div className="col l2 m6 s6"><img className="materialboxed"
                         src={schoolcord10} alt="" /></div>
-                    <div className="col l3 m6 s6"><img
+                    <div className="col l2 m6 s6"><img className="materialboxed"
                         src={schoolcord11} alt="" /></div>
-                    <div className="col l3 m6 s6"><img
+                    <div className="col l2 m6 s6"><img className="materialboxed"
                         src={schoolcord12} alt="" /></div>
 
                 </div>

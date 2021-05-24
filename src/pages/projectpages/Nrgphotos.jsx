@@ -8,7 +8,7 @@ function nrgphotos() {
             <div className="row">
                 <div className="col s12">
                     <h1 className="projectpage-h1">
-                        SCHOOLCORD</h1>
+                        NRG PHOTOS</h1>
                    
                     <p className="projectpage-p">During this project I designed and developed a
                         portfolio/business website for a car photographer.

@@ -1,21 +1,35 @@
-import React from 'react'
+import { Component } from 'react';
+import { SidebarData } from './SidebarData'
+import "./navbar.css"
 
-function nav() {
-    return (
-        <div>
-            <nav>
-                <div class="nav-wrapper">
-                    <a href="/" class="logo">BQTH</a>
-                    <ul id="nav-mobile" class="right ">
-                        <li><a className="nav-link" href="/designs">DESIGNS</a></li>
-                        <li><a className="nav-link" href="/photos">PHOTOS</a></li>
-                        <li><a className="nav-link" href="/deployed-projects">DEPLOYED PROJECTS</a></li>
-                        <li><a className="nav-link" href="/contact-me">CONTACT ME</a></li>
-                    </ul>
+class Navbar extends Component {
+    state = { clicked: false }
+
+    handleClick = () => {
+        this.setState({clicked : !this.state.clicked})
+    }
+
+    render() {
+        return (
+            <nav className="NavbarItems">
+                <a className="logo" href="/">BQTH</a>
+                <div className="menu-icon" onClick={this.handleClick}>
+                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
+                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                    {SidebarData.map((item, index) => {
+                        return (
+                            <li key={index}>
+                                <a className={item.cName} href={item.path} >
+                                    {item.title}
+                                </a>
+                            </li>
+                        )
+                    })}
+                </ul>
             </nav>
-        </div>
-    )
+        )
+    }
 }
 
-export default nav
+export default Navbar
