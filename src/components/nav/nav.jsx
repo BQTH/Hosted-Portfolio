@@ -1,7 +1,6 @@
 import { Component } from 'react';
 import { SidebarData } from './SidebarData'
 import "./navbar.css"
-import Fade from 'react-reveal/Fade';
 
 class Navbar extends Component {
     state = { clicked: false }
