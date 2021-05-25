@@ -7,10 +7,12 @@ import wsyimg5 from './assets/wsy/5.png'
 import wsyimg6 from './assets/wsy/6.png'
 import wsyimg7 from './assets/wsy/7.png'
 import wsyimg8 from './assets/wsy/8.png'
+import Fade from 'react-reveal/Fade'
 
 export default function krs() {
     return (
         <div style={{ background: "#181A1B", width: "100vw", height: "100%" }}>
+            <Fade bottom duration={500}>
             <div className="container">
                 <div className="row">
                     <div className="col s12">
@@ -46,6 +48,7 @@ export default function krs() {
                 </div>
 
             </div>
+            </Fade>
         </div>
     )
 }

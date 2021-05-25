@@ -1,9 +1,11 @@
 import React from 'react'
 import NWdesign from './assets/nachtwakers/Nwdesign.png'
+import Fade from 'react-reveal/Fade'
 
 function nachtwakers() {
     return (
         <div style={{ background: "#181A1B", width: "100vw", height: "100%" }}>
+            <Fade bottom duration={500}>
         <div className="container">
             <div className="row">
                 <div className="col s12">
@@ -21,6 +23,7 @@ I focused mainly on photography, poster design and the development of the websit
             </div>
             
         </div>
+        </Fade>
     </div>
     )
 }

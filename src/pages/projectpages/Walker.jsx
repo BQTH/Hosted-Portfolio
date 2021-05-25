@@ -7,11 +7,13 @@ import walker5 from './assets/walker/5.png'
 import walker6 from './assets/walker/6.png'
 import walker7 from './assets/walker/7.png'
 import walker8 from './assets/walker/8.png'
+import Fade from 'react-reveal/Fade';
 
 
 function Walker() {
     return (
         <div style={{ background: "#181A1B", width: "100vw", height: "100%" }}>
+            <Fade bottom duration={500}>
             <div className="container">
                 <div className="row">
                     <div className="col s12">
@@ -46,6 +48,7 @@ function Walker() {
                 </div>
 
             </div>
+            </Fade>
         </div>
     )
 }

@@ -11,11 +11,13 @@ import schoolcord9 from './assets/schoolcord/9.png'
 import schoolcord10 from './assets/schoolcord/10.png'
 import schoolcord11 from './assets/schoolcord/11.png'
 import schoolcord12 from './assets/schoolcord/12.png'
+import Fade from 'react-reveal/Fade';
 
 
 function Schoolcord() {
     return (
         <div style={{ background: "#181A1B", width: "100vw", height: "100%" }}>
+            <Fade bottom duration={500}>
             <div className="container">
                 <div className="row">
                     <div className="col s12">
@@ -79,6 +81,7 @@ function Schoolcord() {
                 </div>
 
             </div>
+            </Fade>
         </div>
     )
 }

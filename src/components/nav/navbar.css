@@ -5,12 +5,11 @@
     align-items: center;
     font-size: 1em;
     position: absolute;
+    z-index: 2;
 }
 
-.navbar-logo {
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
+.logo {
+    z-index: 2;
 }
 
 .nav-menu{
@@ -40,6 +39,11 @@
     display: none;
 }
 
+nav i{
+    height: 20px;
+    visibility: hidden !important;
+}
+
 @media screen and (max-width: 960px) {
     .NavbarItems{
         position: absolute;
@@ -57,6 +61,9 @@
         transition: all 0.5s ease;
         display: none;
     }
+
+   
+
 
     .nav-menu.active{
         background: #181A1B;
@@ -108,10 +115,12 @@
     }
 
     a.logo{
-        z-index: 1;
+        z-index: 2;
     }
 
     nav i{
         height: 20px;
+        visibility: inherit !important;
     }
+   
 }

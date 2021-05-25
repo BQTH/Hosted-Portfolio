@@ -1,10 +1,12 @@
 import React from 'react'
 import * as FaIcons from 'react-icons/fa'
 //import * as FaIcons from 'react-icons/fa'
+import Fade from 'react-reveal/Fade';
 
 function socials() {
     return (
         <div className="socials-position">
+            <Fade left duration={500}>
             <div className="social-icon">
                 <FaIcons.FaGithub/> - BQTH
             </div>
@@ -16,6 +18,7 @@ function socials() {
             <div className="social-icon">
                 <FaIcons.FaLinkedinIn/> - Benjmin ten Hove
             </div>
+            </Fade>
         </div>
     )
 }

@@ -1,9 +1,11 @@
 import React from 'react'
 import Nrgdesign from './assets/nrgphotos/nrg-design.jpg'
+import Fade from 'react-reveal/Fade'
 
 function nrgphotos() {
     return (
         <div style={{ background: "#181A1B", width: "100vw", height: "100%" }}>
+            <Fade bottom duration={500}>
         <div className="container">
             <div className="row">
                 <div className="col s12">
@@ -22,6 +24,7 @@ function nrgphotos() {
             </div>
             
         </div>
+        </Fade>
     </div>
     )
 }

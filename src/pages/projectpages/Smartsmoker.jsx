@@ -5,11 +5,13 @@ import smartsmoker3 from './assets/smartsmoker/3.png'
 import smartsmoker4 from './assets/smartsmoker/4.png'
 import smartsmoker5 from './assets/smartsmoker/5.png'
 import smartsmoker6 from './assets/smartsmoker/6.png'
+import Fade from 'react-reveal/Fade';
 
 
 function Smartsmoker() {
     return (
         <div style={{ background: "#181A1B", width: "100vw", height: "100%" }}>
+            <Fade bottom duration={500}>
             <div className="container">
                 <div className="row">
                     <div className="col s12">
@@ -40,6 +42,7 @@ function Smartsmoker() {
                 </div>
 
             </div>
+            </Fade>
         </div>
     )
 }
