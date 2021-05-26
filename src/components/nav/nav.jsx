@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import { SidebarData } from './SidebarData'
 import "./navbar.css"
+import {NavLink} from 'react-router-dom'
 
 class Navbar extends Component {
     state = { clicked: false }
@@ -24,9 +25,9 @@ class Navbar extends Component {
                     {SidebarData.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a className={item.cName} href={item.path} >
+                                <NavLink activeClassName="active" className={item.cName} to={item.path} >
                                     {item.title}
-                                </a>
+                                </NavLink>
                             </li>
                         )
                     })}

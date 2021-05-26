@@ -12,6 +12,8 @@ import Nrgphotos from './pages/projectpages/Nrgphotos'
 import Smartsmoker from './pages/projectpages/Smartsmoker'
 import Nachtwakers from './pages/projectpages/Nachtwakers'
 import Walker from './pages/projectpages/Walker'
+import Contact from './pages/Contact'
+import DeployedProjects from './pages/DeployedProjects'
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
               <Route path="/smartsmoker" component={Smartsmoker} />
               <Route path="/nachtwakers" component={Nachtwakers} />
               <Route path="/walker" component={Walker} />
+              <Route path="/contact-me" component={Contact} />
+              <Route path="/deployed-projects" component={DeployedProjects} />
           </Switch>
         </Router>
         </div>

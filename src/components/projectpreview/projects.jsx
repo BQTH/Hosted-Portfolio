@@ -1,6 +1,5 @@
 import React from 'react'
 import axios from 'axios'
-import Fade from 'react-reveal/Fade';
 
 var isLoaded = false;
 
@@ -42,7 +41,7 @@ export default class ProjectList extends React.Component {
                             url(${project.urlbackimg})`
                                 }}>
                                 <div className="row ">
-                                <Fade bottom duration={500}>
+                               
                                     <div className="col l6 m12" style={{ padding: 0}}>
                                         <div className="outervalign" style={{zIndex: 1}}>
                                             <div className="innervalign">
@@ -82,7 +81,6 @@ export default class ProjectList extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                    </Fade>
                                 </div>
                             </div>
                         )}

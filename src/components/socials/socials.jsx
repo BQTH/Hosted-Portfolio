@@ -16,7 +16,7 @@ function socials() {
             </div>
 
             <div className="social-icon">
-                <FaIcons.FaLinkedinIn/> - Benjmin ten Hove
+                <FaIcons.FaLinkedinIn/> - Benjamin ten Hove
             </div>
             </Fade>
         </div>

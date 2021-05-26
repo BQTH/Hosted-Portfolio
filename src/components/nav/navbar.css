@@ -26,13 +26,23 @@
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    font-size: 1em;
     text-align: center;
+    margin-top: 25px;
+    position: relative;
+    display: inline-block;
+    color: royalblue;
+    overflow: hidden;
+    background: linear-gradient(to right, #FFBA52, #FFBA52 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%; 
+    transition: background-position 275ms ease;
 }
 
 .nav-text:hover {
-    background-color: rgba(0, 0, 0, 0.397);
-    transition: all 0.2s ease-out;
+    background-position: 0 100%;
 }
 
 .menu-icon {
@@ -42,6 +52,29 @@
 nav i{
     height: 20px;
     visibility: hidden !important;
+}
+
+.nav-text.active {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #c28d3f, #c28d3f 50%,#FFBA52  50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%; 
+    transition: background-position 275ms ease;
+    text-decoration: underline;
+}
+
+.nav-text.active:hover{
+    background-position: 0 100%;
 }
 
 @media screen and (max-width: 960px) {
@@ -63,7 +96,9 @@ nav i{
     }
 
    
-
+.nav-text{
+    margin-top: 0px !important;
+}
 
     .nav-menu.active{
         background: #181A1B;
