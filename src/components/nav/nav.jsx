@@ -25,7 +25,7 @@ class Navbar extends Component {
                     {SidebarData.map((item, index) => {
                         return (
                             <li key={index}>
-                                <NavLink activeClassName="active" className={item.cName} to={item.path} >
+                                <NavLink activeClassName="active" className={item.cName} to={item.path} onClick={this.handleClick}>
                                     {item.title}
                                 </NavLink>
                             </li>
